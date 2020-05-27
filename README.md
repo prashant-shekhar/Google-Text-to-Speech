@@ -3,8 +3,13 @@
 
  ''' !pip install gTTS '''
 from gtts import gTTS
+
 import os
+
 say = 'Hello Prashant Shekhar'
+
 language = 'en'
+
 speech = gTTS(text = say)
+
 speech.save('/content/drive/My Drive/CSE Projects/first.mp3')
